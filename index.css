@@ -1,0 +1,17 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+}
+
+input, button {
+    margin-bottom: 15px
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+ul {
+    padding: 0%;
+    list-style: none;
+}

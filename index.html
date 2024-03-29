@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Management System</h1>
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="id-no." id="id-no." placeholder="Id-No." required>
+            <input type="checkbox" id="isActive" checked>
+            <label for="isActive">Active</label>
+            <button type="submit" id="createUser">Create User</button>
+        </form>
+        <hr> 
+        <input type="text" id="searchName" placeholder="Search by Name">
+        <button onclick="SearchUsers()">Search</button>
+        <ul id="UserLIst"></ul>
+    </div>
+
+    <script src="system.js"></script>
+
+</body>
+</html>
